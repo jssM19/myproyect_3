@@ -1,5 +1,100 @@
+html, body {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
 body {
-  background-image: url("./my\ imagenes/fondo.jpg");
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#container-formu{
+  background-image: linear-gradient( 0deg, rgb(0,0,0,0.5), rgb(0,0,0,0.5) ) ,url("./my\ imagenes/FONDO.jpg");
   background-repeat: no-repeat;
-  background-size: 1000px 1000px;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: #fafdfd;
+} 
+/*
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+} */
+
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  color: #f9fbfc;
+  text-align: center;
+}
+
+label{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  color: #fbfeff;
+  font-weight: bold;
+}
+.row{
+  display: flex;
+}
+.di-label{
+  width: 70px;
+}
+.di-input {
+  display: flex;
+}
+.input-form{
+  margin-bottom:  15px;
+  margin-left: 10px;
+  padding: 5px;
+  border:none;
+  border-radius: 10px;
+}
+.opciones{
+  width: 187px;
+  height: 29px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  color: rgb(49, 100, 196);
+}
+.div-button{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.submit{
+  font-weight: bold;
+  padding: 10px 112px;
+  border: none;
+  border-radius: 5px;
+  background-color: #24B8D8;
+  color: white;
+}
+.submit {
+  transition: 0.6s;
+}
+
+.submit:hover {
+  background-color: rgb(139, 232, 245);
+  color: #046e86;
 }

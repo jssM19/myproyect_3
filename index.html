@@ -8,6 +8,58 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <form></form>
+    <div id="container-formu">
+      <h1>Inscripcion de Cursos de Programacion</h1> 
+      <form class="form">
+        <h2>Ingresar Datos</h2>
+        <div class="row">
+          <div class="di-label">
+            <label for="nombre">Nombre:</label> 
+          </div>
+          <div class="di-input">
+            <input class="input-form" type="text" name="nombre">
+          </div>
+         
+        </div>
+
+        <div class="row">
+          <div class="di-label">
+            <label for="apellido">Apellido:</label>
+          </div>
+          <div class="di-input">
+            <input class="input-form" type="text" name="apellido">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="di-label">
+            <label for="cedula">Cedula:</label>
+          </div>
+          <div class="di-input">
+            <input class="input-form" type="number" name="cedula">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="di-label">
+            <label for="cursos">Cursos:</label>
+          </div>
+
+          <div class="di-input">
+            <select class="opciones" name="cursos">
+              <option value="html">Html</option>
+              <option value="css">Css</option>
+              <option value="javascript">Javascript</option>
+              <option value="php">Php</option>
+            </select>
+          </div>
+          
+        </div>
+        <div class="div-button">
+          <input class="submit"type="submit" value="Enviar">
+        </div>
+      </form>
+    </div>
+    
   </body>
 </html>
